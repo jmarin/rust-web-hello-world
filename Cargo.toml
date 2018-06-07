@@ -1,0 +1,8 @@
+[package]
+
+name = "my-nickel-app"
+version = "0.0.1"
+authors = ["yourname"]
+
+[dependencies.nickel]
+version = "*"
