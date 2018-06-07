@@ -2,7 +2,7 @@
 
 name = "my-nickel-app"
 version = "0.0.1"
-authors = ["yourname"]
+authors = ["Juan Marin Otero <juan.marin.otero@gmail.com>"]
 
 [dependencies.nickel]
 version = "*"
