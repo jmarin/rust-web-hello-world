@@ -18,7 +18,7 @@ volumes: [
               sh "docker build --rm -t=${env.DOCKER_HUB_USER}/rust-web ."
               sh "docker tag ${env.DOCKER_HUB_USER}/rust-web ${env.DOCKER_HUB_USER}/rust-web:${shortGitCommit}"
               sh "docker login -u ${env.DOCKER_HUB_USER} -p ${env.DOCKER_HUB_PASSWORD} "
-              sh "docker push ${env.DOCKER_HUB_USER}/hmda-platform:${shortGitCommit}"
+              sh "docker push ${env.DOCKER_HUB_USER}/rust-web:${shortGitCommit}"
             }
         }
     }
