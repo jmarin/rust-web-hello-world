@@ -1,6 +1,6 @@
 [package]
 
-name = "my-nickel-app"
+name = "rust-web"
 version = "0.0.1"
 authors = ["Juan Marin Otero <juan.marin.otero@gmail.com>"]
 
