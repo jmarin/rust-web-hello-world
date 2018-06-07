@@ -25,7 +25,7 @@ volumes: [
 
     stage('Deploy') {
       container('helm') {
-        sh "helm upgrade --install --force --namespace=default --values=helm-rust-web/values.yaml --set image.tag=${shortGitCommit} rust-web-${gitBranch} helm/rust-web"
+        sh "helm upgrade --install --force --namespace=default --values=helm/rust-web/values.yaml --set image.tag=${shortGitCommit} rust-web-${gitBranch} helm/rust-web"
       }
     }
 
